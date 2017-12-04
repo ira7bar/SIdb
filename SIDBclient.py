@@ -21,7 +21,7 @@ OK = 'OK'
 OK_GOODBYE = 'ok_goodbye'
 HELP = 'help'
 HELP_syntax = HELP
-MULTITHREADING = 'multithreading'
+
 # ERROR = 'ERROR'
 # NKNOWN_COMMAND = 'Unknown command'
 GOODBYE = 'goodbye'
