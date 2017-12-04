@@ -1,0 +1,23 @@
+Create A Redis Exercise
+Features:
+- Command line interface that can connect to a db server via socket (tcp).
+- The DB is a key value storage that is not persisted (on the ram).
+- The commands that will be implemted are:
+- Set:
+	- Sets a key in the database (all the keys will be saved as strings).
+	- If the key exists, override.
+	- Extra - Add a ttl (read about it).
+- Get:
+	- Gets a value from the database by key.
+	- If the key doesn't exist, sends back error message.
+- Show all keys starting with 
+	- Show all values which their keys starting with specific string.
+- Extra - Backup the data to the disk every x seconds (constant), and be able to start application with last application data.
+	- Add yml configuration file to the server, which holds in it the port it will listen to and the configurable time.
+	- Add support in the server side for multiple clients.
+	- Add command line to the server with these commands:
+		- Flush the data to the disk
+		- Clean DB
+		- Shutdown
+		- Show connected clients
+		- Disconnect client by id.
